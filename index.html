@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijayaganapathy Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b671a17d11.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="navbar" class="navbar">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="head-text">
+            <p>WELCOME TO MY WORLD</p>
+            <h1>Hi, I'm <span>Vijayaganapathy</span><br>a <span class="auto-type"></span></h1>
+                <p>Building responsive website front end using ReactJS</p>
+        </div>
+    </div>
+    
+    
+    <!-- --------about me-------- -->
+    <div id="about">
+        <div class="container" >
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/vijay.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <ul>
+                        <li>Develop highly interactive Front end / User Interfaces for your web applications.</li>
+                        <li>Building responsive website front end using ReactJS.</li>
+                    </ul>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certification</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML.</span></li>
+                            <li><span>CSS.</span></li>
+                            <li><span>JavaScript.</span></li>
+                            <li><span>Bootstrap.</span></li>
+                            <li><span>NodeJS.</span></li>
+                            <li><span>ReactJS.</span></li>
+                            <li><span>Git.</span></li>
+                            <hr>
+                            <li><span>UI</span><br>Designing Web Interfaces.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>NOC Engineer</li>
+                            <li>• Triadss Consulting Services Pvt Ltd (NEC)</li>
+                            <li>• Working as a Network Operations Centre (NOC)  engineer in NEC Corporation India Pvt Ltd(Payroll Company - Triadss Consulting Services Pvt Ltd).</li>
+                            <li>• Handling  the Chennai-Andaman and Nicobar Islands Submarine(CANI) cable system.</li>
+                            <li>• Alarm handling and taking log in the TNMS from OTN then UMS and EMS Monitoring by m/s infinera Submarine Line Terminal Equipment (SLTE).</li>
+                            <li>• Monitoring and maintaining reports of Customers traffic flow (Airtel, BSNL, JIO and Vodafone Idea).</li>
+                            <li>• Monitoring and maintaining the levels of voltage, current and sea earth in power feeding path.</li>
+                            <li>• Experience in Euipment Management System(EMS) and Unified Management System(UMS).</li>
+                            </ul>
+                            
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018 - 2022</span><br>Bachelor of Engineering in computer science BE(CSE) - CGPA - 8.07.</li>
+                            <li><span>2017 - 2018</span><br>Senior Secondary 12th - 70%.</li>
+                            <li><span>2015 - 2016</span><br>Senior Secondary 10th - 71%.</li>
+                            <li><span>2023 - Current</span><br>Full Stack Web Development course in UDEMY.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certificate">
+                        <ul>
+                            <li><span>Certification</span><br>The complete 2023 Web Development Bootcamp by UDEMY. <a href="./images/Web Certificate.png">Click here</a></li>
+                            <li>The fundamentals for beginners by Great Learning. <a href="./images/python certificate.jpeg">Click here</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>NOC Technician</h2>
+                    <p>E-Commerce</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>E-Commerce</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>Web Design</h2>
+                    <p>E-Commerce</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/screen1.png">
+                    <div class="layer">
+                        <h3>Social E-commerce website</h3>
+                        <p>This website connect you to shopping dresses, T-shirts, Shirts, pants and ect,....</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/screen 2.png">
+                    <div class="layer">
+                        <h3>Online Shopping</h3>
+                        <p>This website connect you to shopping dresses, T-shirts, Shirts, pants and ect,....</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Screen 3.png">
+                    <div class="layer">
+                        <h3>Zomato Clone</h3>
+                        <p>This website connect you to shopping dresses, T-shirts, Shirts, pants and ect,....</p>
+                        <a href="https://github.com/vijayaganapathy11"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> vijay7478kumar@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 7305259827</p>
+                        <div class="social-icons">
+                            <h2>Find me</h2>
+                            <a href="https://www.linkedin.com/in/vijayaganapathy/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/vijayaganapathy11"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="./pdf/FD VIJAYAGANAPATHY A Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required autocomplete="off">
+                        <input type="email" name="Email" placeholder="Your Email" required autocomplete="off">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        <span id="msg"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © <p><script>document.write( new Date(). getFullYear() );</script> </p>Portfolio made by ❤️ vijayaganapathy.A</p>
+        </div>
+    </div>  
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings: ["UI Designer","Front-end Developer"],
+            typeSpeed:100,
+            backSpeed:50,
+            loop:true
+        });
+    </script>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemove = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemove.style.right = "0";
+        }
+        function closemenu(){
+            sidemove.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwaHgr_uRWppDYQ5cWVvYdxUeOGTX-iRv8ZQcP-6eNhTZ9DlDs3kpVc77b5I_LXVWaksQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message send successfuly"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+</body>
+
+</html>
