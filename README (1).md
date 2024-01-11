@@ -63,7 +63,7 @@
 2. The fundamentals for beginners by Great Learning.
 
 # Screenshots:
-![Alt text](http://full/path/to/img.jpg "Optional title")
+![Head Screenshot of the Project!](https://github.com/vijayaganapathy11/Personal-Portfolio/blob/main/Screenshot%201.png)
 [Head Screenshot of the Project!](images/Screenshot 1.png)
 [About me Screenshot of the Project!](images/Screenshot 2.png)
 [Projects Screenshot of the Project!](images/Screenshot 3.png)
