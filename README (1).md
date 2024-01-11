@@ -63,11 +63,11 @@
 2. The fundamentals for beginners by Great Learning.
 
 # Screenshots:
-
-![Head Screenshot of the Project](<images/Screenshot 1.png>)
-![About me Screenshot of the Project](<images/Screenshot 2.png>)
-![Projects Screenshot of the Project](<images/Screenshot 3.png>)
-![Contact me Screenshot of the Project](<images/Screenshot 4.png>)
+![Alt text](http://full/path/to/img.jpg "Optional title")
+[Head Screenshot of the Project!](images/Screenshot 1.png)
+[About me Screenshot of the Project!](images/Screenshot 2.png)
+[Projects Screenshot of the Project!](images/Screenshot 3.png)
+[Contact me Screenshot of the Project!](images/Screenshot 4.png)
 
 # Contact:
 
